@@ -1,12 +1,12 @@
 variable "aws_region" {
-  default = ""
+  default = "us-west-2"
 }
 
 variable "account_ids" {
   type    = "list"
-  default = []
+  default = ["057866020917"]
 }
 
 variable "environment" {
-  default = "martian-prod"
+  default = "case9854-prod"
 }
